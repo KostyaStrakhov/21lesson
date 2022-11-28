@@ -31,7 +31,6 @@ body{
     height: 100px;
     padding-right: 178px;
     padding-top: 37px;
-    
 }
 
 .nav-buttons{
@@ -41,16 +40,21 @@ body{
     font-size: 16px;
 }
 
+.nav-buttons :nth-child(4){
+    padding-right: 0px;
+
+}
+
 .nav-elements{
     display: inline-block;
     margin-right: 40px;
     
 }
 
-.button{
-    display: block;
+.button-block-demo{
+    /* display: inline-block; */
     padding-top: 20px;
-    padding-left: 407,14px ;
+    padding-left: 218px;
 }
 
 .button-demo{
@@ -72,7 +76,11 @@ body{
     margin: auto;
 }
 
-.save-left{
+.save-data{
+    display: inline-flex;
+}
+
+.save-data-left{
     padding-left: 214px;
     padding-top: 100px;
     display: flex;
@@ -89,7 +97,7 @@ body{
 }
 
 .p-save-data{
-    width: 317px;
+    width: 370px;
     height: 117px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -98,9 +106,15 @@ body{
     line-height: 29px;
 
 }
-.learn-button{
+.button-learn-block{
+
+}
+
+
+.button-learn{
     height: 60px;
     width: 210px;
+    color: #FFFFFF;
     border: 1px solid #9C69E2;
     border-radius: 50px;
     background-color: #9C69E2;
@@ -112,20 +126,16 @@ body{
     letter-spacing: 0.005em
 }
 
-.save-data{
-    display: inline-flex;
-}
 
-.save-right{
+
+.save-data-right{
     display: block;
-    margin-top: 182px;
-    margin-right: 215px;
+    padding-top: 182px;
+    padding-right: 215px;
 }
 .image-save-data{
     position: absolute;
-    left: 685px;
-    top: 282px;
-   
+    transform: translateX(-185px);
 }
 
 .storage{
